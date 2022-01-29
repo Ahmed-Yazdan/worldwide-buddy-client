@@ -1,0 +1,39 @@
+#home {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: 1s ease-in all;
+}
+
+.tour-buddy-text {
+  color: yellow;
+  font-size: 2.5rem;
+}
+
+.test {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.bottom-buttons {
+  border: 3px solid transparent;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: rgb(0, 0, 0);
+  padding: 7px;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  transition: 0.2s ease-in;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.bottom-buttons:hover {
+  border-bottom: 3px solid #000000;
+}
+.bottom-buttons:disabled{
+  opacity: 0.4;
+}

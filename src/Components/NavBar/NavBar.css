@@ -1,0 +1,33 @@
+.signInButton {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2.5px solid rgb(219, 243, 1);
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.userName {
+    width: 150px;
+}
+
+.myNavbar {
+    background-color: transparent;
+}
+
+.nav-text {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0px 2px;
+    border-bottom: 2.5px solid rgba(219, 243, 1, 0);
+    color: gray;
+}
+
+.nav-text:hover {
+    border-bottom: 2.5px solid rgb(219, 243, 1);
+}
+
+.nav-brand{
+    /* color: rgb(194, 6, 241); */
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
